@@ -44,7 +44,7 @@ public class CallWrappersUsingKeyword2 {
 			}
 			
 			
-			Method[] methodName = wrapper..getDeclaredMethods();
+			Method[] methodName = wrapper.getDeclaredMethods();
 			
 			for (Method method : methodName) {
 				
